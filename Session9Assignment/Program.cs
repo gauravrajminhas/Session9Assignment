@@ -13,7 +13,17 @@ namespace Session9Assignment
         {
             propertiesClass obj = new propertiesClass();
             obj.rates = 2.3;
-            System.Console.Write(obj.rates);
+            System.Console.WriteLine(obj.rates);
+            // thus there _adjustedRates are not exposed to the outside world 
+            
+
+
+            immuatableClass testObj = new immuatableClass();
+            System.Console.WriteLine(testObj.exchnage);
+
+            testObj.exchnage = "AMEX";
+            System.Console.WriteLine(testObj.exchnage);
+
             System.Console.Read();
 
         }

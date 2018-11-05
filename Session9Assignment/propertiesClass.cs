@@ -34,5 +34,28 @@ namespace Session9Assignment
     }
 
 
+    public class immuatableClass
+    {
+        private string _exchnage="VISA";
+        private string[] _SWIFTIntermediateries;
+
+        public String exchnage 
+        {
+            set { _exchnage = "Master Card"; }
+            get { return _exchnage; }
+
+        }
+
+
+
+    }
+
+    public class immuatableClassConstructor
+    {
+        private string _exchnage;
+        private string[] _SWIFTIntermediateries;
+    }
+
+
 
 }
